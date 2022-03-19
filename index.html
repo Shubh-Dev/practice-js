@@ -4,9 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Practice | Javascript</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>hello world</h1>
+    <header>
+        <h1>Dom Manipulation</h1>
+    </header>
+
+    <div class="container">
+        <p class= "color-text" onclick="changeText(this)">click me to change text</p>
+
+        <button class="time-btn">see time</button>
+        <p class="demo"></p>
+
+        <div class="main-form">
+            <form method="post">
+                <input type="text" id="text-input" placeholder="enter name">
+                <button type="submit" class="form-button">submit</button>
+
+            </form>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
 </body>
 </html>

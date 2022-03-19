@@ -1,3 +1,23 @@
 body {
   margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: auto;
+  text-align: center;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}
+
+h1 {
+  color: tomato;
+}
+
+p {
+  font-size: 22px;
 }
