@@ -21,3 +21,12 @@ h1 {
 p {
   font-size: 22px;
 }
+
+.disappear {
+  display: none;
+} 
+
+.disappear.active {
+  display: flex;
+  color: red;
+}
