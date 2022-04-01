@@ -30,3 +30,7 @@ p {
   display: flex;
   color: red;
 }
+
+article {
+  border-bottom: 1px solid black;
+}

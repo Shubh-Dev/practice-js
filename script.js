@@ -91,4 +91,7 @@ myButton.addEventListener('click', () => {
 function getValueFromLocalStorage() {
 let myLocalValue = localStorage.getItem('input');
 };
+
+const articles = document.getElementsByTagName('article');
+console.log(articles);
   
