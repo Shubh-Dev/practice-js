@@ -93,5 +93,17 @@ let myLocalValue = localStorage.getItem('input');
 };
 
 const articles = document.getElementsByTagName('article');
-console.log(articles);
+for(let i = 0; i < articles.length; i++) {
+    let myArticle = articles[i];
+    let myButton = document.createElement('button');
+    myButton.className = 'my-btn';
+    myButton.innerHTML = 'Edit';
+    myButton.addEventListener('click', (e) => {
+       let clickedButton = e.target;
+       let parent = clickedButton.parentNode;
+       let content = parent.querySelector('.content')[0];
+       content.innerHTML = 'I am changed';
+    });
+    myArticle.appendChild(myButton);
+};
   
